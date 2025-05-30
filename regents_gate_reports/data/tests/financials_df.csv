@@ -1,0 +1,22 @@
+revenue,expenses,net_income,assets,liabilities,equity,cash,debt,equity_ratio,debt_ratio,quarter,company
+66,25,50,25,90,12,3,68,3,88,Q1 2020,Allen-Mcguire
+15,98,77,82,57,95,21,73,17,1,Q2 2020,Allen-Mcguire
+96,95,37,83,64,73,86,63,38,35,Q3 2020,Allen-Mcguire
+91,50,88,84,42,3,29,76,84,97,Q4 2020,Allen-Mcguire
+29,40,11,49,24,94,39,68,69,36,Q1 2021,Allen-Mcguire
+98,51,61,42,17,97,35,13,23,63,Q2 2021,Allen-Mcguire
+41,55,74,41,99,38,55,46,5,74,Q3 2021,Allen-Mcguire
+50,61,86,81,19,75,66,89,21,45,Q4 2021,Allen-Mcguire
+46,90,17,28,12,22,51,61,31,8,Q1 2022,Allen-Mcguire
+1,11,40,60,53,29,27,79,23,35,Q2 2022,Allen-Mcguire
+6,20,76,27,29,14,64,94,43,41,Q3 2022,Allen-Mcguire
+49,65,13,87,53,45,92,59,67,2,Q4 2022,Allen-Mcguire
+54,8,78,56,85,34,7,81,1,16,Q1 2023,Allen-Mcguire
+1,1,50,65,23,8,70,25,31,94,Q2 2023,Allen-Mcguire
+4,85,74,18,22,32,44,17,55,65,Q3 2023,Allen-Mcguire
+57,77,94,90,64,72,27,41,19,2,Q4 2023,Allen-Mcguire
+77,95,84,31,78,38,4,61,37,5,Q1 2024,Allen-Mcguire
+42,99,6,45,63,18,45,68,32,29,Q2 2024,Allen-Mcguire
+67,19,50,17,20,71,90,30,55,31,Q3 2024,Allen-Mcguire
+59,71,30,90,4,60,68,1,76,20,Q4 2024,Allen-Mcguire
+91,77,16,72,16,56,49,7,91,18,Q1 2025,Allen-Mcguire

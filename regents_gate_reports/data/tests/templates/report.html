@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ company }} - Annual Report {{ year }}</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; }
+    h2 { border-bottom: 1px solid #ccc; }
+    table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+  <h1>{{ company }} – Annual Report {{ year }}</h1>
+
+  <h2>1. Reporting Period</h2>
+  <p>January 1, {{ year }} – December 31, {{ year }}</p>
+
+  <h2>2. Company Profile</h2>
+  <p>
+    {{ profile.name }}<br>
+    {{ profile.address }}<br>
+    Formed on {{ profile.formed }}
+  </p>
+
+  <h2>3. Notable People</h2>
+  <ul>
+    {% for p in people %}
+    <li>{{ p.title }} – {{ p.person_name }} (Appointed: {{ p.appointed }})</li>
+    {% endfor %}
+  </ul>
+
+  <h2>4. Stock Price (Base 100)</h2>
+  <img src="chart_{{ year }}.png" width="600" />
+
+  <h2>5. Financials</h2>
+  <table>
+    <tr>
+      <th>Quarter</th>
+      <th>Revenue</th>
+      <th>Net Income</th>
+      <th>Cash</th>
+    </tr>
+    {% for row in financials %}
+    <tr>
+      <td>{{ row.quarter }}</td>
+      <td>{{ row.revenue }}</td>
+      <td>{{ row.net_income }}</td>
+      <td>{{ row.cash }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+</body>
+</html>

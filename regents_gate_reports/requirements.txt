@@ -1,0 +1,7 @@
+pandas
+cookiecutter
+matplotlib
+pathlib
+pyarrow
+openpyxl
+pytest
